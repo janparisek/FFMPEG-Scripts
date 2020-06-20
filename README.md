@@ -7,17 +7,25 @@ converts all MP3 files into PCM files
 extracts the audio streams from all video files and puts them into their corresponding container formats
 * `extract frames from gif.sh`
 extracts every single frame from a GIF image and saves it as standalone, single-frame PNG images
+* `extract video.sh`
+extracts the video stream from a video file
 * `extract wave from all.bat`
 extracts the audio streams from all video files and converts them into PCM files
 * `fix pts.sh`
 fixes the "presentation timestamp" in video files with broken timestamps
 *  `probe.sh`
 get info about a file
+* `to 720p.sh`
+resizes a video to 720p
+* `to flac.sh`
+converts a file to a FLAC file
 * `to gif.sh`
-convert a video into a GIF file (without sound)
+converts a video into a GIF file (without sound)
+* `to m4a.sh`
+converts a file to an M4A file (useful for Apple iPhone ringtones)
 * `to mp3.sh`
-convert a file to an MP3 file
+converts a file to an MP3 file
 * `to wav.sh`
-convert a file to a PCM file
+converts a file to a PCM file
 * `trim.sh`
 extracts a part of a video file and saves it into another file
