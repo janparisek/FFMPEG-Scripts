@@ -1,6 +1,8 @@
 # FFMPEG-Scripts
 A bunch of super useful scripts to do various things with FFMPEG, an awesome piece of software.
 
+* `AV1-test.sh`
+a test to demonstrate the effectiveness of the (at that time) brand new AV1 codec
 * `all mp3 to wav.bat`
 converts all MP3 files into PCM files
 * `extract audio from all.ps1`
@@ -13,6 +15,10 @@ extracts the video stream from a video file
 extracts the audio streams from all video files and converts them into PCM files
 * `fix pts.sh`
 fixes the "presentation timestamp" in video files with broken timestamps
+* `merge.sh`
+merges a video file and an audio file together into a video file with audio
+* `play.sh`
+plays a file with FFplay
 *  `probe.sh`
 get info about a file
 * `to 720p.sh`
